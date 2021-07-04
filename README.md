@@ -17,6 +17,7 @@ Eigen >=3.3.7 with Environment Variable EIGEN_ROOT_DIR
 ```c
 mkdir build
 cd build
-cmake ..
-make
+# NOTE: gcc requirement due to gtest
+cmake .. -GNinja -DCMAKE_CXX_COMPILER=g++-7
+ninja
 ```
