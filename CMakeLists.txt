@@ -27,3 +27,5 @@ target_include_directories(
 		$ENV{EIGEN_ROOT_DIR}
 )
 target_link_libraries(eigen_mvn_test eigen_mvn)
+
+install(TARGETS eigen_mvn DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
