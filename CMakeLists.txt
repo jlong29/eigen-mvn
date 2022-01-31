@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(eigen_mvn CXX)
+project(eigen-mvn CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
